@@ -1,3 +1,4 @@
+
 let btn = document.querySelector(".dropdown__value");
 let list = document.querySelector(".dropdown__list");
 let item = document.querySelectorAll(".dropdown__item");

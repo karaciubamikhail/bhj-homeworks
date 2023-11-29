@@ -1,3 +1,4 @@
+
 let cookie=document.getElementById("cookie");
 let stats = document.getElementById("clicker__counter").innerHTML;
 Number(stats);
