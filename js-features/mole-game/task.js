@@ -13,6 +13,8 @@ for(let i=0;i<holes.length;i++){
         if(countDead===10){
             countDead=0;
             countLost=0;
+            dead.textContent=0;
+            lost.textContent=0;
             alert("Победа");
         }
        }else{
@@ -21,6 +23,8 @@ for(let i=0;i<holes.length;i++){
         if(countLost===5){
             countDead=0;
             countLost=0;
+            dead.textContent=0;
+            lost.textContent=0;
             alert("Поражение");
         }
        }
